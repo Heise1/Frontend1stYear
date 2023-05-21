@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Create Account</title>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link href="/Styles/StyleSheetmenu.css" rel="stylesheet"/>
+        <link href="/Styles/StyleSheetCreateAccount.css" rel="stylesheet">
+        <script src="/Scripts/SiteMenu.js"></script>
+    </head>
+
+    <body>
+         <!---------------navigation------------>
+    <div class="nav-container">
+        <nav class="navbar">
+            <h1 id="navbar-logo">Dungeon Quest</h1>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="Index.html" class="nav-links">Home</a></li>
+                <li><a href="news.html" class="nav-links">News</a></li>
+                <li><a href="characters.html" class="nav-links">Characters</a></li>
+                <li><a href="world.html" class="nav-links">World</a></li>
+                <li><a href="forums.html" class="nav-links">Forums</a></li>
+                <li><a href="createaccount.html" class="nav-links nav-links-btn">Register</a></li>
+
+            </ul>
+        </nav>
+    </div>
+    <script src="/Scripts/app.js"></script>
+    <!-------+------------------+----------->
+    <div id="registration-form">
+        <form action="/action_page.php">
+            <h3>Create Account</h3>
+            <label for="username">Username:</label><br>
+            <input type="text" id="user-name" name="username"><br>
+            <label for="name">Name:</label><br>
+            <input type="email" id="name" name="name"><br><br>
+            <label for="email">Email:</label><br>
+            <input type="text" id="email" name="email"><br><br>
+            <label for="pwd">Password:</label><br>
+            <input type="password" id="pwd" name="pwd">
+            <h3>Phone Number</h3>
+            <input type="tel" id="phonenumber" name="phonenumber">
+            <h3>Gender:</h3>
+            <select id="gender" name="gender">
+              <option value="volvo">Male</option>
+              <option value="saab">Female</option>
+              <option value="audi">Other</option>
+            </select>
+            <h3>Birthday:</h3>
+            <label for="birthday">Date</label>
+            <input type="date" id="birthday" name="birthday">
+            <h3>Agreement:</h3>
+            <input type="checkbox" id="agreement" name="agreement" value="agreement">
+            <label for="agreement">Do you agree to our <strong>Policies</strong> and <strong>Rules</strong>.</label><br>
+            <input type="checkbox" id="notifications" name="notifications" value="notifications">
+            <label for="notifications"> Do you want to recieve notifications from this website</label><br>
+            <input type="submit">
+          </form>
+        
+    </div>
+        
+    </body>
+</html>

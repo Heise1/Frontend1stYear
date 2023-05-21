@@ -1,0 +1,50 @@
+html,
+    body {
+      position: relative;
+      height: 100%;
+    }
+
+    body {
+      background-image: url(/Images/Land1.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-attachment: fixed;
+      object-fit: cover;
+      margin: 0;
+      padding: 0;
+    }
+
+    #character{
+      height: 100%;
+    }
+
+    .swiper-container {
+      width: 100%;
+      height: 300px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .swiper-slide {
+      background-size: cover;
+      background-position: center;
+    }
+
+    .gallery-top {
+      height: 70%;
+      width: 100%;
+    }
+
+    .gallery-thumbs {
+      height: 20%;
+      box-sizing: border-box;
+      padding: 10px;
+      background-color: black;
+    }
+
+    .gallery-thumbs .swiper-slide {
+      width: 25%;
+      height: 50%;
+      opacity: 100;
+    }

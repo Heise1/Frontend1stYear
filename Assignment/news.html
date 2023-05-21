@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Home</title>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <script src="/Scripts/SiteMenu.js"></script>
+        <link href="/Styles/StyleSheetmenu.css" rel="stylesheet"/>
+        <link href="Styles/StyleSheetNews.css" rel="stylesheet"/>
+        <!--Swiper slider from internet-->
+        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    </head>
+    <body>
+    <!---------------navigation------------>
+    <div class="nav-container">
+        <nav class="navbar">
+            <h1 id="navbar-logo">Dungeon Quest</h1>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="nav-menu">
+                <li class="link"><a href="Index.html" class="nav-links">Home</a></li>
+                <li class="link"><a href="news.html" class="nav-links">News</a></li>
+                <li class="link"><a href="characters.html" class="nav-links">Characters</a></li>
+                <li class="link"><a href="world.html" class="nav-links">World</a></li>
+                <li class="link"><a href="forums.html" class="nav-links">Forums</a></li>
+                <li class="link"><a href="createaccount.html" class="nav-links nav-links-btn">Register</a></li>
+
+            </ul>
+        </nav>
+    </div>
+    <script src="/Scripts/app.js"></script>
+    <!-------+------------------+----------->
+    <h1 id="tittle">NEWS</h1>
+        <!-- Swiper -->
+  <div class="swiper-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <ul id="topic">
+            <li>
+                <img src="/Images/Originals/Land2.jpg" alt="img1" id="img"> 
+            </li>
+            <li>
+                <h2>
+                    "New Characters"
+                </h2>
+            </li>
+            <li>
+                <p>
+                    The update adds four new characters. Childe is a 5-star hydro archer that, unlike any other character, can switch between melee and ranged attacks. Zhongli is a 5-star geo polearm wielder with high defense, strong area-of-effect attacks, and can petrify enemies. Xinyan and Diona are new 4-star characters who have not yet been detailed, but will offer "more effective elemental combos and combat strategies"
+                </p>
+            </li>
+        </ul>
+    </div>
+    <div class="swiper-slide">
+        <ul id="topic">
+            <li>
+                <img src="/Images/Originals/Land4.jpg" alt="img2" id="img">
+            </li>
+            <li>
+            <h2>"New Quests"</h2>
+            </li>
+            <li>
+            <p>No major details have been revealed for the new series of quests coming in the 1.1 update, but we know that it will include the grand finale of the Liyue chapter, meaning there will be three full acts of quests in the core storyline. Producer and CEO Hugh Tsai tells IGN that more character-specific side quests will be added, too.</p>
+            </li>
+        </ul>
+    </div>
+    <div class="swiper-slide">
+        <ul id="topic">
+            <li>
+                <img src="/Images/Originals/Land5.jpg" alt="img3" id="img">
+            </li>
+            <li>
+                <h2>"Seasonal Event - 'Unreconciled Stars'"</h2>
+            </li>
+            <li>
+                <P>Unreconciled Stars is a two-week event, "which calls on all players to fight back against a sudden and terrible catastrophe facing Teyvat". The event will add a series of quests, co-op challenges, and will offer rewards including 4-star character Fischl.</P>
+            </li>
+        </ul>
+    </div>
+    
+    <div class="swiper-slide">
+        <ul id="topic">
+            <li>
+                <img src="/Images/Originals/Land6.jpg" alt="img4" id="img">
+            </li>
+            <li>
+                <h2>"Reputation System"</h2>
+            </li>
+            <li>
+                <p>The new Reputation system will give players a separate rating in each of the game's cities, which will build upon completing activities in the surrounding region. Building Reputation will offer region-exclusive rewards, including customisation options and some of the new items listed below.</p>
+            </li>
+        </ul>
+    </div>
+    <div class="swiper-slide">
+        <ul id="topic">
+            <li>
+                <img src="/Images/Originals/Land7.jpg" alt="img5" id="img">
+            </li>
+            <li>
+                <h2>"New Items"</h2>
+            </li>
+            <li>
+                <p>New tools include a portable waypoint, portable stove, treasure compass, and oculus resonance stones (which will mark nearby Anemoculi and Geoculi. The update will also add a Wind Catcher item, which stores anemograna to create on-demand wind currents, allowing for more exploration.</p>
+            </li>
+        </ul>
+    </div>
+    </div>
+    <!-- Add Pagination -->
+    <div class="swiper-pagination"></div>
+  </div>
+
+  <!-- Swiper JS -->
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      slidesPerView: 3,
+      spaceBetween: 35,
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+    });
+  </script>
+        
+    <ul class="same-topics">
+        <li id="some-topics">
+            <h2 >
+                Dungeon Quest has arrived at the Guilin scenic area! 
+            </h2>
+            <p>
+                Explorers, let's go on adventure together in the natural beauty of Guilin!
+            </p>
+        </li>
+        <li id="some-topics">
+            <h2>"Songs of Explorers" — Behind the Scenes of the Music of Laguna</h2>
+            <p>The New York Symphony Orchestra and special guest traditional musicians come together at the New York Symphony Orchestra Hall to record the soundtrack for the Laguna region in Dungeon Quest, full of the uniquely enchanting sounds of the West.</p>
+        </li>
+        <li id="some-topics">
+            <h2>Unreconciled Stars - Event Details</h2>
+            <P>Peculiar meteorites are descending upon Visa, bringing a rare sleeping  sickness with them. People trapped in deep slumber, mysterious dreams, an  unknown star... The crisis draws closer!</P>
+        </li>
+        <li id="some-topics">
+            <h2>"Adventurers Afar" Scenic Spot Collaboration Documentary - Huanglong Chapter</h2>
+            <p>In the future, we will continue to create ecosystems brimming with life for Dungeon Quest. We hope that this will enhance the open-world experience and inspire the desire to experience and protect nature.</p>
+        </li>
+        <li id="some-topics">
+            <h2>A certain "friend in the business" - Ghongli, Consultant at the Wangsheng Funeral Parlor</h2>
+            <p>An account of some small happenings from before the Adventurers came to Luzon and viewed the Rite of Descension.</p>
+            
+        </li>
+    </ul>
+
+    </body>
+</html>

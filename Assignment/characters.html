@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Characters</title>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link href="/Styles/StyleSheetmenu.css" rel="stylesheet"/>
+        <!--Swiper slider from internet-->
+        <link href="/Styles/StyleSheetCharacters.css" rel="stylesheet"/><link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+        <script src="/Scripts/SiteMenu.js"></script>
+    </head>
+    <body>
+         <!---------------navigation------------>
+    <div class="nav-container">
+        <nav class="navbar">
+            <h1 id="navbar-logo">Dungeon Quest</h1>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="nav-menu">
+              <li class="link"><a href="Index.html" class="nav-links">Home</a></li>
+              <li class="link"><a href="news.html" class="nav-links">News</a></li>
+              <li class="link"><a href="characters.html" class="nav-links">Characters</a></li>
+              <li class="link"><a href="world.html" class="nav-links">World</a></li>
+              <li class="link"><a href="forums.html" class="nav-links">Forums</a></li>
+              <li class="link"><a href="createaccount.html" class="nav-links nav-links-btn">Register</a></li>
+
+          </ul>
+        </nav>
+    </div>
+    <script src="/Scripts/app.js"></script>
+    <!-------+------------------+----------->
+    
+          <!-- Swiper -->
+  <div class="swiper-container gallery-top">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide" ><img src="/Images/Chracter/animal-2029279_1280.png" alt="character1" id="character"></div>
+      <div class="swiper-slide" ><img src="/Images/Chracter/bear-3189349_1920.png" alt="character2" id="character"></div>
+      <div class="swiper-slide" ><img src="/Images/Chracter/dragon-1597583_1280.png" alt="character3" id="character"></div>
+      <div class="swiper-slide" ><img src="/Images/Chracter/flamingo-1424943_1280.png" alt="character4" id="character"></div>
+      <div class="swiper-slide" ><img src="/Images/Chracter/m n.png" alt="character5" id="character"></div>
+    </div>
+    <!-- Add Arrows -->
+    <div class="swiper-button-next swiper-button-white"></div>
+    <div class="swiper-button-prev swiper-button-white"></div>
+  </div>
+  <div class="swiper-container gallery-thumbs">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide"><img src="/Images/Chracter/mini1.png" alt="character1"></div>
+      <div class="swiper-slide"><img src="/Images/Chracter/mini2.png" alt="character2"></div>
+      <div class="swiper-slide"><img src="/Images/Chracter/mini3.png" alt="character3"></div>
+      <div class="swiper-slide"><img src="/Images/Chracter/mini4.png" alt="character4"></div>
+      <div class="swiper-slide"><img src="/Images/Chracter/mini5.png" alt="character5"></div>
+    </div>
+  </div>
+
+  <!-- Swiper JS -->
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var galleryThumbs = new Swiper('.gallery-thumbs', {
+      spaceBetween: 10,
+      slidesPerView: 4,
+      freeMode: true,
+      watchSlidesVisibility: true,
+      watchSlidesProgress: true,
+    });
+    var galleryTop = new Swiper('.gallery-top', {
+      spaceBetween: 10,
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+      thumbs: {
+        swiper: galleryThumbs
+      }
+    });
+  </script>
+    
+
+        
+    </body>
+</html>

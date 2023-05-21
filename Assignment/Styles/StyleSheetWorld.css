@@ -1,0 +1,37 @@
+body {
+    background-image: url(/Images/Originals/Land10.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    object-fit: cover;
+}
+
+#tittle{
+    padding: 20px;
+    text-align: center;
+    color: white;
+    text-shadow:0 0 10px rgba(114, 71, 21, 0.68), 0 0 10px rgba(114, 71, 21, 0.68);
+    background-color: black;
+    opacity: 80%;
+  }
+
+#pic{
+    width: 100%;
+}
+
+h3{
+    color: white;
+    padding: 20px;
+    font-size: 30px;
+}
+p{
+    color: white;
+    padding: 20px;
+    font-size: 25px;
+}
+#topic{
+    padding: 10%;
+    background-color: rgb(0, 0, 0);
+    opacity: 80%;
+}

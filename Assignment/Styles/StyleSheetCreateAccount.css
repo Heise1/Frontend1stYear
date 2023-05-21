@@ -1,0 +1,18 @@
+body {
+    background-image: url(/Images/Originals/Land9.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    object-fit: cover;
+}
+
+#registration-form{
+    padding: 102px;
+    background-color: white;
+    opacity: 80%;
+}
+
+input{
+    padding: 5px;
+}

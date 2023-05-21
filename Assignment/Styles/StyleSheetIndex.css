@@ -1,0 +1,67 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#canvas1{
+  position: fixed;
+  top: 80px; left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 25%;
+}
+
+body {
+    background-image: url(/Images/Land3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+ .center {
+     display: block;
+     max-width: 40%;
+     height: auto;
+     margin-left: auto;
+     margin-right: auto;
+ }
+ div.dqlogo
+ {
+    position: relative;
+    top: 150px;
+ }
+
+ div.text1 {
+     position: relative;
+     text-align: center;
+     text-shadow:0 0 10px rgba(114, 71, 21, 0.68), 0 0 10px rgba(114, 71, 21, 0.68);
+     top: 200px;
+ }
+ 
+#console-image
+{
+  height: 50px;
+  padding: 5px;
+  background-color: rgb(255, 255, 255);
+}
+
+ul.downloads {
+  position: relative;
+  top: 240px;
+  text-align: center;
+}
+
+ul.downloads li{
+  display: inline;
+}
+
+h2 {
+  color: rgb(255, 255, 255);  
+}
+

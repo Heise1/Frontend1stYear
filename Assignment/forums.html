@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Forums</title>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link href="/Styles/StyleSheetmenu.css" rel="stylesheet"/>
+        <link href="/Styles/StyleSheetForums.css" rel="stylesheet"/>
+        <!--Swiper slider from internet-->
+        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+        <script src="/Scripts/SiteMenu.js"></script>
+    </head>
+
+    <body>
+        <!---------------navigation------------>
+    <div class="nav-container">
+        <nav class="navbar">
+            <h1 id="navbar-logo">Dungeon Quest</h1>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="nav-menu">
+                <li class="link"><a href="Index.html" class="nav-links">Home</a></li>
+                <li class="link"><a href="news.html" class="nav-links">News</a></li>
+                <li class="link"><a href="characters.html" class="nav-links">Characters</a></li>
+                <li class="link"><a href="world.html" class="nav-links">World</a></li>
+                <li class="link"><a href="forums.html" class="nav-links">Forums</a></li>
+                <li class="link"><a href="createaccount.html" class="nav-links nav-links-btn">Register</a></li>
+
+            </ul>
+        </nav>
+    </div>
+    <script src="/Scripts/app.js"></script>
+    <!-------+------------------+----------->
+
+    <!-- Swiper -->
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img src="/Images/Originals/Land1.jpg" alt="img1" id="img">
+                <ul>
+                <li>
+                    <h2 >
+                        Dungeon Quest has arrived at the Guilin scenic area! 
+                    </h2>
+                </li>
+                <li>
+                    <p>
+                        Explorers, let's go on adventure together in the natural beauty of Guilin!, An account of some small happenings from before the Traveler came to Luzon and viewed the Rite of Descension.
+                    </p>
+                </li>
+                </ul>
+            </div>
+            <div class="swiper-slide">
+                <img src="/Images/Originals/Land2.jpg" alt="img2" id="img">
+                <ul>
+                <li>
+                     <h2>"Songs of Explorers" — Behind the Scenes of the Music of Laguna</h2>
+                </li>
+                <li>
+                    <p>The New York Symphony Orchestra and special guest traditional musicians come together at the New York Symphony Orchestra Hall to record the soundtrack for the Laguna region in Dungeon Quest, full of the uniquely enchanting sounds of the West.</p>
+                </li>
+                </ul>
+            </div>
+            <div class="swiper-slide">
+                <img src="/Images/Originals/Land4.jpg" alt="img3" id="img">
+                <ul>
+                <li>
+                    <h2>Unreconciled Stars - Event Details</h2>
+                </li>
+                <li>
+                    <P>Peculiar meteorites are descending upon Visa, bringing a rare sleeping  sickness with them. People trapped in deep slumber, mysterious dreams, an  unknown star... The crisis draws closer!</P>
+                </li>
+                </ul>
+            </div>
+            <div class="swiper-slide">
+                <img src="/Images/Originals/Land5.jpg" alt="img4" id="img">
+                <ul>
+                <li>
+                    <h2>"Adventurers Afar" Scenic Spot Collaboration Documentary - Huanglong Chapter</h2>
+                </li>
+                <li>
+                    <p>In the future, we will continue to create ecosystems brimming with life for Dungeon Quest. We hope that this will enhance the open-world experience and inspire the desire to experience and protect nature.</p>
+                </li>
+                </ul>
+            </div>
+            <div class="swiper-slide">
+                <img src="/Images/Originals/Land6.jpg" alt="img5" id="img">
+                <ul>
+                    <li>
+                        <h2>A certain "friend in the business" - Ghongli, Consultant at the Wangsheng Funeral Parlor</h2>
+                    </li>
+                    <li>
+                        <p>An account of some small happenings from before the Adventurers came to Luzon and viewed the Rite of Descension.</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+    </div>
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            direction: 'vertical',
+            slidesPerView: 2,
+            spaceBetween: 20,
+            mousewheel: true,
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+        });
+    </script>
+
+    <div id="create-post">
+        <ul id="tabs">
+        <li>
+        <button type="button" class="button">Create Post</button>
+        </li>
+        <li>
+        <button type="button" class="button">Publish Fanart</button>
+        </li>
+        </ul>
+    </div>
+        
+    </body>
+</html>
